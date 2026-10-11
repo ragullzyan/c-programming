@@ -1,1 +1,15 @@
+#include <stdio.h>
 
+void main() {
+    int maths_marks, science_marks, computers_marks, total;
+    float average;
+
+    printf("Enter marks in three subjects : ");
+    scanf("%d %d %d", &maths_marks, &science_marks, &computers_marks);
+
+    total = maths_marks + science_marks + computers_marks;
+    average = total / 3.0;
+
+    printf("Total marks = %d\n", total);
+    printf("Average marks = %f\n", average);
+}
