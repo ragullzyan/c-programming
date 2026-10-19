@@ -1,1 +1,15 @@
 
+#include <stdio.h>
+
+int main() {
+    int n, price, total;
+
+    scanf("%d", &n);
+    scanf("%d", &price);
+
+    total = n * price;
+
+    printf("%d\n", total);
+
+    return 0;
+}
